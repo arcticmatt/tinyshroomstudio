@@ -1,0 +1,103 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+}
+
+body {
+    /* Default */
+    font-family: 'Space Mono';
+}
+
+.porta-penguin-bg {
+    background-color: #F0EEF8;
+    border-radius: 25px;
+}
+
+.charactersmw {
+    display: inline-block;
+    max-width: 500px;
+}
+
+.logomw {
+    display: inline-block;
+    max-width: 300px;
+}
+
+.right {
+    float: right;
+}
+
+.poppins {
+    font-family: 'Poppins';
+}
+
+.space-mono {
+    font-family: 'Space Mono';
+}
+
+.color-dark-purp {
+    color: #6443C9;
+}
+
+.color-light-purp {
+    color: #A99ED5;
+}
+
+.color-copyright {
+    color: #9B9B9B;
+}
+
+.color-main-text {
+    color: #4A4A4A;
+}
+
+.text-button-active {
+    border-bottom: 2px solid #6443C9;
+    padding-bottom: 3px;
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 32px;
+    color: #6443C9;
+}
+
+.text-button-link {
+    color: inherit;
+    text-decoration: none;
+    z-index: 2;
+    /* Need for z-index shenanigans */
+    position: relative;
+}
+
+.text-button-link:hover {
+    color: inherit;
+    text-decoration: none;
+    color: #6443C9;
+}
+
+.text-button-inactive {
+    font-family: 'Space Mono';
+    font-weight: bold;
+    font-size: 32px;
+    color: #9B9B9B;
+}
+
+.big-text {
+    font-size: 54px;
+    font-weight: 800;
+    font-family: 'Poppins';
+    color: #6443C9;
+}
+
+.span-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.z-high {
+    z-index: 20;
+}
