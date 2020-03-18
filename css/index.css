@@ -65,10 +65,9 @@ body {
 }
 
 .text-button-active {
-    border-bottom: 2px solid #6443C9;
-    padding-bottom: 3px;
+    border-bottom: 4px solid #6443C9;
     font-family: 'Space Mono';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 32px;
     color: #6443C9;
 }
