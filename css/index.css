@@ -95,8 +95,7 @@ body {
 }
 
 .big-text {
-    font-size: 54px;
-    font-weight: 800;
+    font-weight: bold;
     font-family: 'Poppins';
     color: #6443C9;
 }
